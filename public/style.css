@@ -1,0 +1,71 @@
+
+body{background-color: black;margin:0px;}
+#EX
+{
+ /*top:112px;*/
+ background-color:blanchedalmond;
+ height: 7000px;
+ width: 3750px;
+}
+@media all and (max-width: 640px) 
+{
+ #EX 
+ {
+  height: 700px;
+  width: 375px;
+  background-color:black;
+  flex-direction: column;
+  display: flex;
+  flex-direction: row;
+  margin-top: 112px;
+ }
+
+ #EX > Ptt-title
+ {
+  position: absolute;
+  margin-top: 31pt;
+  /*top: 31px;*/
+  right: 111pt;
+  left: 58pt;
+  height: 58pt;
+  width: 206pt;
+  color:rgb(240, 240, 247);
+  font-size: 16px;
+ }
+
+ #EX > Sing-in
+ {
+  height: 36pt;
+  width: 112pt;
+  margin-left: 45pt;
+  margin-top: 152pt;
+ }
+ .sing-in
+ {
+  background-color: black;
+  height: 36pt;
+  width: 56pt;
+  color: rgb(240, 240, 247);
+  font-size: 14pt;
+  float:left;
+  border-style: none solid none none;
+ }
+ .create-an-account
+ {
+  background-color: black;
+  height: 36pt;
+  width: 56pt;
+  color: rgb(94, 94, 102);;
+  font-size: 14pt;
+  border: none;
+ }
+ input
+ {
+  background-color: rgb(42, 42, 48);
+  height: 30pt;
+  width: 200pt;
+  border: none;
+  border-radius: 15pt;
+ }
+ ::placeholder{color: rgb(94, 94, 102);}
+}

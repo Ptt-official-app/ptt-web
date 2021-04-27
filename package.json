@@ -1,0 +1,12 @@
+{
+  "name": "ptt-project",
+  "version": "1.0.0",
+  "description": "Ptt-Web-Demo",
+  "main": "index.js",
+  "scripts": {
+    "start": "npm run dev:dev && react-scripts start",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "Zou-Xingde",
+  "license": "ISC"
+}
