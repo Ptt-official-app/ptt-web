@@ -4,9 +4,13 @@
   "description": "Ptt-Web-Demo",
   "main": "index.js",
   "scripts": {
-    "start": "npm run dev:dev && react-scripts start",
+    "start": "node Server.js",
     "test": "echo \"Error: no test specified\" && exit 1"
   },
   "author": "Zou-Xingde",
-  "license": "ISC"
+  "license": "ISC",
+  "devDependencies": {
+    "express": "^4.17.1",
+    "webpack": "^5.36.2"
+  }
 }
