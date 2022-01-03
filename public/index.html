@@ -1,25 +1,29 @@
 <!DOCTYPE html>
 <html>
   <head>
-    <meta charset="utf-8">
-    <link href="style.css" rel="stylesheet" type="text/css">
-    <meta name="viewport" content="width=device-width, initial-scale=1">
-    <title>PTT-Web-Demo</title>
-
+   <meta charset="utf-8">
+   <link href="style.css" rel="stylesheet" type="text/css">
+   <meta name="viewport" content="width=device-width, initial-scale=1">
+   <title>PTT-Web-EX</title>
   </head>
   <body>
-  <div id="EX">
-    <Ptt-title>
-      <h1>批踢踢實業坊</h1>
-      <h1>Ptt.cc</h1>
-    </Ptt-title>
-    <Sing-in>
-      <button class="sing-in">登入</button>
-      <button class="create-an-account">註冊</button>
-      <p><input class="account-number" type="text" placeholder="使用者帳號"></p>
-      <p><input class="password" type="text" placeholder="密碼"></p>
-    </Sing-in>
-  </div>
-  <script src="/static/app.js"></script>
+    <div class="Ptt-title">
+      <h1 style="font-size: 6.4vmin;line-height: 0pt;">批踢踢實業坊</h1>
+      <h1 style="font-size: 6.4vmin;line-height: 3.9408867vh;">Ptt.cc</h1>      
+    </div>
+    <div class="Sing-in＆register">
+      <button class="sing-in-typ" style="font-size: 4.26666667vmin;">登入</button>
+      <button class="create-an-account-typ" style="font-size: 4.26666667vmin;">註冊</button>
+    </div>
+    <div class="Sing-in">
+      <input class="account-number" type="text" placeholder="使用者帳號" style="font-size: 3.2vmin;">
+      <input class="password" type="text" placeholder="密碼" style="font-size: 3.2vmin;">
+      <button class="sing-in" type="button" onclick="EX()">登入</button>
+      <button class="Terms-of-Service">使用本服務及表示您同意使用者條款</button>
+      <hr class="style-one" />
+      <button class="Forgot-password">忘記帳號/密碼？</button>
+    </div>
+    
+    <script src="login-page.js"></script>
   </body>
 </html>

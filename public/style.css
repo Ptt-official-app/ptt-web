@@ -1,71 +1,136 @@
+* {box-sizing: border-box;}
 
-body{background-color: black;margin:0px;}
-#EX
-{
- /*top:112px;*/
- background-color:blanchedalmond;
- height: 7000px;
- width: 3750px;
-}
-@media all and (max-width: 640px) 
-{
- #EX 
- {
-  height: 700px;
-  width: 375px;
-  background-color:black;
-  flex-direction: column;
-  display: flex;
-  flex-direction: row;
-  margin-top: 112px;
- }
 
- #EX > Ptt-title
+body{background-color: rgb(23,23,23);margin:0px;}
+
+.Ptt-title
  {
   position: absolute;
-  margin-top: 31pt;
-  /*top: 31px;*/
-  right: 111pt;
-  left: 58pt;
-  height: 58pt;
-  width: 206pt;
+  top: 17.6108374vmax;
+  left: 15.5666667vmin;
+  height: 7.142857vmax;
+  width: 54.9333333vmin;
   color:rgb(240, 240, 247);
-  font-size: 16px;
  }
 
- #EX > Sing-in
- {
-  height: 36pt;
-  width: 112pt;
-  margin-left: 45pt;
-  margin-top: 152pt;
- }
- .sing-in
- {
-  background-color: black;
-  height: 36pt;
-  width: 56pt;
-  color: rgb(240, 240, 247);
-  font-size: 14pt;
-  float:left;
-  border-style: none solid none none;
- }
- .create-an-account
- {
-  background-color: black;
-  height: 36pt;
-  width: 56pt;
-  color: rgb(94, 94, 102);;
-  font-size: 14pt;
-  border: none;
- }
+.Sing-in＆register
+{
+ position: absolute;
+ display: flex;
+ top: 32.5123153vmax;
+ left: 15.5666667vmin;
+ height: 4.43349754vmax;
+ width: 29.8666667vmin;
+ background-color: rgb(23,23,23);
+ flex-direction: row;
+}
+
+.sing-in-typ
+{
+ background-color: rgb(23,23,23);
+ height: 2.21674877vmax;
+ width: 10.6666667vmin;
+ color: rgb(240, 240, 247);
+ padding: 0%;
+ line-height: 0%;
+ text-align: left;
+ float:left;
+ border-style: none solid none none;
+}
+
+.create-an-account-typ
+{
+ background-color: rgb(23,23,23);
+ height: 2.21674877vmax;
+ width: 14.9333333vmin;
+ line-height: 0%;
+ text-align: left;
+ color: rgb(94, 94, 102);
+ border: none;
+}
+
+.Sing-in
+{
+ position: absolute;
+ display: flex;
+ top: 42.241379310344vmax;
+ height: 57.7586207vmax;
+ width: 100vmin;
+ align-items: center;
+ flex-flow: column wrap;
+}
+
+.sing-in
+{
+ position: absolute;
+ background-color: rgb(23,23,23);
+ top: 16.3793103vmax;
+ height: 3.69458128vmax;
+ width: 70.6666667vmin;
+ border: 2px solid rgba(255, 159, 10);
+ border-radius: 15pt;
+ color: rgb(255, 159, 10);
+}
+
+.Terms-of-Service
+{
+ position: absolute;
+ background-color: rgb(23,23,23);
+ top: 22.5369458vmax;
+ height: 2.46305419vmax;
+ width: 65.8666667vmin;
+ color: rgb(94, 94, 102);
+ border: none;
+ text-decoration: underline;
+}
+
  input
  {
   background-color: rgb(42, 42, 48);
-  height: 30pt;
-  width: 200pt;
+  height: 3.69458128vmax;
+  width: 70.6666667vmin;
   border: none;
   border-radius: 15pt;
  }
- ::placeholder{color: rgb(94, 94, 102);}
+
+ ::placeholder
+ {
+  position: absolute;
+  left: 5.33333333vmin;
+  top: 1.10837438vmax;
+  color: rgb(94, 94, 102);
+ }
+
+ .account-number
+ {
+  position: absolute;
+  top: 0vmax;
+ }
+ .password
+ {
+  position: absolute;
+  top: 7.38916256vmax;
+ }
+
+ hr.style-one 
+ {
+  position: absolute;
+  top: 32.2660099vmax;
+  border: 0;
+  height: 1px;
+  width: 32.7586207vmax;
+  background: rgb(56,56,61);
+  margin-top: 0vmax;
+ }
+
+ .Forgot-password
+{
+ position: absolute;
+ background-color: rgb(94,94,102);
+ top: 35.4679803vmax;
+ height: 3.69458128vmax;
+ width: 70.6666667vmin;
+ border: none;
+ border-radius: 15pt;
+ color: rgb(23,23,23);
 }
